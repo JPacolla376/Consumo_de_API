@@ -5,9 +5,11 @@ url = 'https://api-receitas-pi.vercel.app/receitas/todas'
 try:
     response = requests.get(url)
     
+    # Mostra o status da resposta e o conteúdo bruto
     print('Status code:', response.status_code)
-    print('Conteúdo bruto:', response.text)
+    print('Conteúdo bruto:', response.text)  # Mostra o conteúdo da resposta como texto
 
+    # Tenta converter a resposta em JSON
     if response.status_code == 200:
         try:
             data = response.json()
