@@ -1,6 +1,10 @@
 [Documentação de API de Receitas_Python.docx](https://github.com/user-attachments/files/17037913/Documentacao.de.API.de.Receitas_Python.docx)
 Documentação de API de Receitas
 
+Projeto de Consumo de API
+
+Este projeto foi desenvolvido como parte de um desafio acadêmico na universidade, cujo objetivo era realizar o consumo de uma API pública, gerenciando suas respostas e limitações. O foco principal foi compreender a estrutura de comunicação entre cliente e servidor, incluindo a construção de requisições HTTP e o tratamento de respostas.  
+
 Requisitos
 •	Python: Versão 3.12.6
 •	Biblioteca: requests (instalada via pip)
