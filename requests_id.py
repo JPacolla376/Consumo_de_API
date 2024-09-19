@@ -1,3 +1,4 @@
+#Busca por id específico
 import requests
 
 recipe_name = input("Digite o nome da receita que deseja buscar: ").lower()
